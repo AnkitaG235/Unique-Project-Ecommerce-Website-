@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeirdoKart - Quirky Fashion for All</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!--<div class="subheader1">
+            <a href="#">Offer</a>
+            <a href="#">Fanbook</a>
+            <a href="#">Download App</a>
+            <a href="#">Find Store</a>
+        </div-->
+        <div class="container1">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/Logo 2.png" alt="WeirdoKart" width="100px" /></a>
+                </div>
+
+                <nav>
+
+                    <div>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-icons">
+                        <input type="text" placeholder="Search for products">
+                        <button>Search</button>
+                        <a href="#" class="wishlist-icon">
+                            <i class="fa fa-heart"></i> Wishlist
+                        </a>
+                        <a href="cart.html"cart-icon">
+                            <i class="fa fa-shopping-cart"></i> Cart
+                        </a>
+                    </div>
+                    <!-- <nav>
+                        <ul class="nav-links">
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Winterwear</a></li>
+                        </ul>
+                        <div class="nav-icons">
+                            <input type="text" placeholder="Search for products">
+                            <button>Search</button>
+                            <a href="#" class="wishlist-icon">
+                                <i class="fa fa-heart"></i> Wishlist
+                            </a>
+                            <a href="#" class="cart-icon">
+                                <i class="fa fa-shopping-cart"></i> Cart
+                            </a>
+                        </div>
+                    </nav> -->
+
+                    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+            </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Unisex</a>
+                <a href="#">Offer</a>
+                <select>
+                    <option value="">Default Shorting</option>
+                    <option value="">Short by price</option>
+                    <option value="">Short by popularity</option>
+                    <option value="">Short by rating</option>
+                    <option value="">Short by sale</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/Winterwear 2.jpg" alt="" />
+                    <h4>Winterwear</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹800.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Jackets.jpg" alt="" />
+                    <h4>Jackets</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹1500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Unisex woolenwear.jpg" alt="" />
+                    <h4>Unisex woolenwear</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>₹900.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Oversize T-shirt.jpg" alt="" />
+                    <h4> Oversized T-shirt</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/Mens'Jackets2.jpg" alt="" />
+                    <h4>Mens'Jackets</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹1200.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Accessories3.jpg" alt="" />
+                    <h4>Accessories</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Mobile Cover.jpg" alt="" />
+                    <h4>Mobile Cover</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>₹200.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Woolen Payjamas.jpg" alt="" />
+                    <h4>Woolen Payjamas</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹700.00</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/Women Jeans.jpg" alt="" />
+                    <h4>Women's Jeans</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹700.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Mens's Jeans.jpg" alt="" />
+                    <h4>Mens's Jeans</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Sweatshirts 2.jpg" alt="" />
+                    <h4>Sweatshirts</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>₹700.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Dresses.jpg" alt="" />
+                    <h4>Dresses</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/Sliders.jpg" alt="" />
+                    <h4>Sliders</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Co-ordinates2.jpg" alt="" />
+                    <h4>Co-ordinates</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Bagpack.jpg" alt="" />
+                    <h4>Bagpack</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Gymwear 4.jpg" alt="" />
+                    <h4>Gymwear</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            
+            <div class="footer-col-1">
+                <h3>Follow us</h3>
+                <ul>
+                    Facebook &nbsp;
+                    Twitter &nbsp;
+                    Instagram &nbsp;
+                    YouTube &nbsp;
+                </ul>
+            </div>
+            </div>
+            <hr />
+            <p>© 2025 WeirdoKart. All rights reserved.</p>
+            </div>
+            </div>
+        </footer>
+
+        <script src="./js/index.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById('MenuItems');
+    MenuItems.style.maxHeight = '0px';
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == '0px') {
+            MenuItems.style.maxHeight = '200px';
+        } else {
+            MenuItems.style.maxHeight = '0px';
+        }
+    }
+</script>

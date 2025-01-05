@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - WeirdoKart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="loginpage" href="login.html">
+    <script defer src="js/products.js"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="Assets/Logo 2.png" alt="WeirdoKart" width="100px" /></a>
+    </div>
+    <header>
+        <!-- Header/Navbar -->
+        <nav>
+            <div class="navbar">
+                <h1>WeirdoKart</h1> &nbsp;
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Unisex</a>
+                <a href="#">Offer</a>
+                <select id="sort-options">
+                    <option value="">Default Sorting</option>
+                    <option value="price-asc">Sort by Price: Low to High</option>
+                    <option value="price-desc">Sort by Price: High to Low</option>
+                    <option value="popularity">Sort by Popularity</option>
+                    <option value="rating">Sort by Rating</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/Winterwear 2.jpg" alt="" />
+                    <h4>Winterwear</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹800.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Jackets.jpg" alt="" />
+                    <h4>Jackets</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>₹1500.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="Assets/Unisex woolenwear.jpg" alt="" />
+                    <h4>Unisex woolenwear</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>₹900.00</p>
+                </div>
+
+            <div id="product-list" class="row">
+                <!-- Product cards will be dynamically inserted here -->
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 WeirdoKart - All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
